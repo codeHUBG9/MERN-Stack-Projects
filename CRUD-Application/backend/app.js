@@ -4,6 +4,7 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+const errorMiddleware = require("./middlewares/errors");
 /**
  * Middleware
  */
@@ -28,5 +29,8 @@ const user = require("./routes/auth");
  * Map the routes
  */
 app.use(ver1, user);
+
+//Custom Middleware to handle error
+app.use(errorMiddleware);
 
 module.exports = app;
