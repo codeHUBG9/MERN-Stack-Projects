@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio Code.
+################################################################################
+
+/CRUD-Application/node_modules
+/CRUD-Application/package-lock.json
+/CRUD-Application/backend/config/config.env
+/CRUD-Application/client/node_modules
+/CRUD-Application/client/package-lock.json
+
+
