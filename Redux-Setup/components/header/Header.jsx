@@ -15,9 +15,9 @@ const Header = () => {
         <div className="left">
           <div className="company-name">
             <div className="company-name-logo">
-              <img src="/images/company1.svg" alt="" />
+              <img src="/images/company.svg" alt="" />
             </div>
-            <span className="company-name-text">CRUD-APP</span>
+            <span className="company-name-text">CRUD-Base</span>
           </div>
         </div>
         <div className="center">
