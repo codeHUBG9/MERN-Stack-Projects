@@ -30,7 +30,7 @@ export const authReducers = (state = { user: {} }, action) => {
         user: null,
         error: action.payload,
       };
-    case CLEAR_ERROR:
+    case CLEAR_ERRORS:
       return {
         ...state,
         error: null,
