@@ -1,0 +1,67 @@
+.login {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+    .inputBox {
+        display: flex;
+        margin-bottom: 25px;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            width: 50px;
+            background-color: rgb(206, 206, 206,0.8);
+            span {
+                color: rgb(41, 41, 41);
+            }
+        }
+
+        .input .MuiOutlinedInput-root {
+            border-radius: 0px;
+            outline: 0;
+        }
+    .input{
+    width: 100%;
+    font-weight: 14px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+  }
+    }
+    .quotes{
+        padding-bottom: 20px;  
+        .text{
+            font-size: 20px;
+            font-weight: 500;
+            }
+            p{
+                padding-top: 5px;
+                font-size: 12px;
+                font-weight: 400;
+                color: rgb(107, 107, 107);
+                word-spacing: 3px;
+            }
+    }
+ 
+        .footer{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 120px;
+                height: 35px;
+                border: 0;
+                outline: 0;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: #263055;
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+}

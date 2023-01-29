@@ -48,5 +48,6 @@
   "devDependencies": {
     "node-polyfill-webpack-plugin": "^2.0.1",
     "react-app-rewired": "^2.2.1"
-  }
+  },
+  "proxy": "http://127.0.0.1:4080/api/v1"
 }

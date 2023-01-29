@@ -6,9 +6,11 @@ import {
 import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension";
 import countReducer from "../reducers/countReducer";
+import { authReducers } from "../reducers/authReducers";
 
 const rootReducer = combineReducers({
   count: countReducer,
+  auth: authReducers,
 });
 
 let initialState = {};
