@@ -1,10 +1,12 @@
 import React from "react";
-import GlobalFilter from "../components/GlobalFilter.jsx/GlobalFilter";
+import MetaData from "../metaData/header/MetaData";
 import "./home.scss";
 const Home = () => {
   return (
     <div className="home">
-      <GlobalFilter title="Hello" />
+      <div className="globalFilter">
+        <MetaData title="Hello" className="metadata11" />
+      </div>
       <div></div>
     </div>
   );

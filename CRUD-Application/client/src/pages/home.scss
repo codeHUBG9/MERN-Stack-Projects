@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    flex-direction: row;
+
+    .globalFilter{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        // background-color: yellow;
+    }
+}

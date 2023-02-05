@@ -1,6 +1,6 @@
 .app{
     display: flex;
-   height: calc(100vh - 50px);
+   height: calc(100vh - 60px);
    background-color: #eeeff8;
     .menubar{
         display: flex;
@@ -9,5 +9,6 @@
     .main-page{
         display: flex;
         flex: 12;
+        flex-direction: column;
     }
 }

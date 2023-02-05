@@ -5,11 +5,15 @@ import "./app.scss";
 import { Fragment, useState } from "react";
 import MainRoute from "./router/MainRoute";
 import UserAuth from "./pages/userAuth/UserAuth";
+import { useDispatch, useSelector } from "react-redux";
 function App() {
-  const [user, setUser] = useState(true);
+  const dispatch = useDispatch();
+  const { loading, user, isAuthenticated, error } = useSelector(
+    (state) => state.auth
+  );
   return (
     <Fragment>
-      {!user ? (
+      {!isAuthenticated ? (
         <UserAuth />
       ) : (
         <>
